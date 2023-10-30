@@ -14,4 +14,8 @@ quote_style = 'single'
 [profile.lite.optimizer_details.yulDetails]
 optimizerSteps = ''
 
+[etherscan]
+opBnbTestnet = { key = "${ETHERSCAN_API_KEY}", url = "$RPC_URL", chain = 5611 }
+onusTestnet = { key = "${ETHERSCAN_API_KEY}", url = "$RPC_URL", chain = 1945 }
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
